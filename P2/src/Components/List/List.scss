@@ -1,0 +1,21 @@
+.List{
+	display: flex;
+
+	flex-direction: column;
+	width: 40%;
+	height: calc(100% -50px);
+
+	margin-top: 60px;
+	padding: 10px;
+	p{
+		font-size: 12px;
+	}
+	h1{
+		font-size: 17px;
+	}
+	h2{
+		font-size: 15px;
+	}
+
+	
+}

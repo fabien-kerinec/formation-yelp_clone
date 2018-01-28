@@ -1,0 +1,1 @@
+{"version":3,"sources":["../server/index.js"],"names":["listen","console","log"],"mappings":";;AAAA;;;;;;AAEA,cAAIA,MAAJ,CAAW,IAAX,EAAiB,YAAM;AACrBC,UAAQC,GAAR,CAAY,yBAAZ;AACD,CAFD","file":"index.js","sourcesContent":["import app from './app'\n\napp.listen(3005, () => {\n  console.log('Running on port 3005...')\n})\n"]}

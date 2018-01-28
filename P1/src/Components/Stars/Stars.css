@@ -1,0 +1,15 @@
+.Star {
+  font-size: 30px; }
+
+.starlist {
+  display: flex;
+  flex-direction: row; }
+  .starlist li:first-child {
+    padding-left: 0; }
+  .starlist li {
+    padding: 5px 5px; }
+    .starlist li i {
+      font-size: 20px;
+      color: #bac6c6; }
+      .starlist li i.active {
+        color: #3eb2aa; }

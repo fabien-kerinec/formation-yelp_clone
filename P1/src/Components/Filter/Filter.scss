@@ -1,0 +1,20 @@
+.Filter{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	padding-top: 15px;
+	padding-left: 15px;
+	width: 30%;
+	height: 50px;
+
+	p{
+		padding-top: 5px;
+	}
+
+	select{
+		
+		margin-left: 10px;
+		margin-right: 10px;
+		height: 25px;
+	}
+}

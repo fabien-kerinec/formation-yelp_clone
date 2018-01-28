@@ -1,0 +1,1 @@
+{"version":3,"sources":["../server/routes.js"],"names":["routes"],"mappings":";;;;;;AAAA;;;;;;AAEA,IAAMA,SAAS,wBAAf;;kBAEeA,M","file":"routes.js","sourcesContent":["import express from 'express'\n\nconst routes = express()\n\nexport default routes\n"]}

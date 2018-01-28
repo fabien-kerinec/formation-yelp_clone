@@ -1,0 +1,25 @@
+.Star{
+	font-size: 30px;
+}
+
+.starlist{
+	display: flex;
+	flex-direction: row;
+
+	li:first-child{
+		padding-left: 0;
+	}
+
+	li{
+		padding: 5px 5px;
+		
+		i{
+			font-size: 20px;
+			color:#bac6c6;
+			&.active{
+				color:#3eb2aa;
+			}
+			
+		}
+	}
+}

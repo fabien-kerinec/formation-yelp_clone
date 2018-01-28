@@ -1,0 +1,39 @@
+body, html, #root {
+	width: 100%;
+	height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+h2{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+}
+h3{
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+}
+p{
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}

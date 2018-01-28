@@ -1,0 +1,9 @@
+.Content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: calc(100% - 100px);
+  position: relative; }
+
+.addComment {
+  cursor: pointer; }

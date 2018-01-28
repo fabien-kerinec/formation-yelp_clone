@@ -1,0 +1,13 @@
+.List {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: calc(100% -50px);
+  margin-top: 60px;
+  padding: 10px; }
+  .List p {
+    font-size: 12px; }
+  .List h1 {
+    font-size: 17px; }
+  .List h2 {
+    font-size: 15px; }

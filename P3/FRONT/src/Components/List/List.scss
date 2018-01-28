@@ -1,0 +1,115 @@
+.List{
+	display: flex;
+
+	flex-direction: column;
+	width: 30%;
+	height: calc(100% -50px);
+
+	margin-top: 60px;
+	padding: 10px;
+	p{
+		font-size: 12px;
+	}
+	h1{
+		font-size: 17px;
+	}
+	h2{
+		font-size: 15px;
+	}
+
+	
+}
+
+.Star{
+	font-size: 30px;
+}
+
+.starlist{
+	display: flex;
+	flex-direction: row;
+
+	li:first-child{
+		padding-left: 0;
+	}
+
+	li{
+		padding: 5px 5px;
+		
+		i{
+			font-size: 20px;
+			color:#bac6c6;
+			&.active{
+				color:#3eb2aa;
+			}
+		}
+	}
+}
+
+.separator{
+	height: 2px;
+	width: 100%;
+	background-color:#3eb2aa;
+
+	margin-top: 5px;
+	margin-left: -10px;
+	margin-bottom: 10px;
+}
+
+.submitNewComm{
+	background-color: transparent;
+	border:solid 1px #3eb2aa;
+	color: #3eb2aa;
+
+	font-weight: bold;
+
+	width: 100px;
+	height: 25px;
+
+	cursor:pointer;
+
+	margin-top: 15px;
+
+	border-radius: 3px
+}
+
+.submitNewComm:hover{
+	background-color: #3eb2aa;
+	color: #fff;
+}
+
+textarea{
+	display: block;
+	width: 80%;
+	border: 0;
+
+	padding: 10px 5px;
+	background: white no-repeat;
+	background-image: linear-gradient(to bottom, #3eb2aa, #3eb2aa), linear-gradient(to bottom, silver, silver);
+	background-size: 0 2px, 100% 1px;
+	background-position: 50% 100%, 50% 100%;
+
+	transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+textarea:focus{
+  /* sizes for the 2 images (focus state) */
+	background-size: 100% 2px, 100% 1px;
+	outline: none;
+}
+
+textarea:required{
+	box-shadow:none;
+}
+
+.addComment{
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.infoNote{
+	margin: 0;
+	padding: 0;
+}
+
+.newCommentStars{
+	margin-top: -10px;
+}

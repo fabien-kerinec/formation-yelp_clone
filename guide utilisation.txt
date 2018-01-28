@@ -1,0 +1,38 @@
+Projet en ligne a l'adresse : 
+restaurants.fabien-kerinec.fr
+identifiant : fabien
+mdp : projetRestaurants
+
+Les versions P1 et P2 ne sont pas graphiquement à jour.
+
+------------ ATTENTION -------------
+Depuis la nouvelle version de yelp, les requètes doivent être faites via un backend et non directement en ajax.
+
+J'ai donc fais un backend en nodeJS que j'ai upload sur mon vps.
+J'ai rencontré un soucis a passé le backend en https
+Du coup pour le moment il faut activer les scripts a s'executer le plus simple est de le faire sur chrome
+Sur chrome : dans la barre d'addresse sur la droite on peut voir un bouclier avec une petite croix en dessous. un clic va permettre de valider "le chargement de scripts a risque".
+
+Sur firefox (ne marche pas tout le temps suivant la version) : cliquer sur le point d'exclamation a gauche de la barre d'adresse puis desactiver la "protection"
+
+------------ ATTENTION -------------
+
+
+
+------------------ EXECUTION EN LOCAL ------------------------
+Etant donnée que c'est une application react et nodeJS
+Il faut avoir node et npm d'installer
+ICi j'utilise node 8.4.0 et npm 5.3.0
+Par soucis de taille de fichier, j'ai retiré le dossier "node_module" qui permet d'installer les differents packages.
+Pour les installer dans le dossier principal (P1 ; P2 ; P3/front ; P3/API) faire un "npm install" dans une console.
+Puis pour lancer l'application : "npm start"
+
+Le front se lance sur le localhost:3000
+Dans le code (P3/src/component/content ligne 67) est indiqué l'addresse de la requète pour la donnée.
+De base elle indique l'addresse de mon serveur VPS sur le port 3006.
+En local ça ne posera pas de soucis particulier (dont je parlais plus haut) car le localhost n'est pas détécté en https.
+
+Si jamais vous voulez tester avec l'api "local" vous pouvez lancer l'api avec un "npm start"
+Le serveur se lancera sur le "localhost:3006"
+Il faudra evidemment changer l'adresse a la ligne cité plus haut
+------------------ EXECUTION EN LOCAL ------------------------

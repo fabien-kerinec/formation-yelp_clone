@@ -1,0 +1,95 @@
+{
+   "restaurants" : [
+      {
+         "Name":"Le Stessie",
+         "address":"64 Rue de la Fontaine Blanche, 29800 Landerneau",
+         "position" : {
+            "lat":48.4530472,
+            "lng":-4.2532957
+         },
+         "ratings":[
+            {
+               "stars":4,
+               "comment":"Un excellent restaurant, j'y reviendrai ! Par contre il vaut mieux aimer la viande."
+            },
+            {
+               "stars":5,
+               "comment":"Tout simplement mon restaurant préféré !"
+            }
+         ]
+      },
+      {
+         "Name":"Le Marsala",
+         "address":"14 Place Poul ar Stang, 29800 Landerneau",
+         "position" : {
+            "lat":48.4491873,
+            "lng":-4.2488158
+         },
+         "ratings":[
+            {
+               "stars":1,
+               "comment":"Une minuscule pizzeria délicieuse cachée juste à côté du Sacré choeur !"
+            },
+            {
+               "stars":4,
+               "comment":"J'ai trouvé ça correct, sans plus"
+            }
+         ]
+      },
+      {
+         "Name":"Par faim sur le quai",
+         "address":"23 Quai de Cornouaille, 29800 Landerneau",
+         "position" : {
+            "lat":48.4490234,
+            "lng":-4.2504539
+         },
+         "ratings":[
+            {
+               "stars":2,
+               "comment":"Une minuscule pizzeria délicieuse cachée juste à côté du Sacré choeur !"
+            },
+            {
+               "stars":5,
+               "comment":"J'ai trouvé ça correct, sans plus"
+            }
+         ]
+      },
+      {
+         "Name":"Le cap Horniers",
+         "address":"13 Rue du Commerce, 29800 Landerneau",
+         "position" : {
+            "lat":48.4507084,
+            "lng":-4.2512043
+         },
+         
+         "ratings":[
+            {
+               "stars":1,
+               "comment":"Une minuscule pizzeria délicieuse cachée juste à côté du Sacré choeur !"
+            },
+            {
+               "stars":3,
+               "comment":"J'ai trouvé ça correct, sans plus"
+            }
+         ]
+      },
+      {
+         "Name":"Le Fournil des provinces",
+         "address":"50 Rue de la Tour d'Auvergne, 29800 Landerneau",
+         "position" : {
+            "lat":48.4536354,
+            "lng":-4.2450242
+         },
+         "ratings":[
+            {
+               "stars":1,
+               "comment":"Une minuscule pizzeria délicieuse cachée juste à côté du Sacré choeur !"
+            },
+            {
+               "stars":5,
+               "comment":"J'ai trouvé ça correct, sans plus"
+            }
+         ]
+      }
+   ]
+}
